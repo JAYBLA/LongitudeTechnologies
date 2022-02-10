@@ -1,0 +1,14 @@
+/* header */
+.top-bar{
+    background-color: rgba(0, 125, 197, 1);
+    border-bottom-style: solid;
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(129, 129, 129, 0.2);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+
