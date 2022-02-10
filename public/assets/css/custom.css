@@ -48,7 +48,10 @@
   # Header
   --------------------------------------------------------------*/
   #header {
-    background: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(129, 129, 129, 0.2);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;    
     transition: all 0.5s;
     z-index: 997;
     padding: 25px 0;
