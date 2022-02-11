@@ -9,6 +9,8 @@
     <!-- Bootstrap CSS -->
     <link href="<?= base_url() ?>/assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?= base_url() ?>/assets/css/style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/5.3.4/css/jquery.mmenu.all.min.css'>
+
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,6 +32,14 @@
     <script src="<?= base_url() ?>/assets/js/bootstrap.bundle.min.js"></script>
     <script src="<?= base_url() ?>/assets/js/main.js"></script>
     <script src="<?= base_url() ?>/assets/js/custom.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/5.3.4/js/jquery.mmenu.min.all.min.js'></script>
+
+        <script>
+			$(function() {
+				$('nav#mobile-menu').mmenu();
+			});
+		</script>
+
     <?= $this->rendersection('javascript') ?>
 </body>
 
