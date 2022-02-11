@@ -34,11 +34,21 @@
     <script src="<?= base_url() ?>/assets/js/custom.js"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/5.3.4/js/jquery.mmenu.min.all.min.js'></script>
 
+    <script>
+            $(document).ready(function(){
+                $("#desktop-navigation-menu")
+                .clone()
+                .attr({'class':'d-lg-none','id':'mobile-menu'})
+                .insertAfter("nav#desktop-navigation-menu");                
+            });
+        </script>
+        
         <script>
 			$(function() {
 				$('nav#mobile-menu').mmenu();
 			});
 		</script>
+
 
     <?= $this->rendersection('javascript') ?>
 </body>

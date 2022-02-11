@@ -63,6 +63,12 @@
   #mobile-menu{
 	  z-index: 999;
   }
+/* 
+  @media only screen and (min-width:768px){
+	  #mobile-menu{
+		  display: none !important;
+	  }
+  } */
   
   #header.header-scrolled {
 	top: 0;
