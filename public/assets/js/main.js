@@ -13,7 +13,7 @@ let activeSlide = 0;
 let prevActive = 0;
 
 changeSlides();
-let int = setInterval(changeSlides, 4000);
+let int = setInterval(changeSlides, 5000);
 
 function changeSlides() {
 	slides[prevActive].classList.remove('active');
@@ -39,6 +39,6 @@ controls.forEach(control => {
 		changeSlides();
 
 		clearInterval(int);
-		int = setInterval(changeSlides, 4000);
+		int = setInterval(changeSlides, 5000);
 	});
 });

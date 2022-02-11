@@ -5,7 +5,7 @@
 
 <?= $this->section('content') ?>
 <div class="container-fluid site-slider-container">
-	<h1>Precision Farming Solutions</h1>
+	<h1>Precision Farming Solutions</h1>	
 	<div class="slide" style="background-image: url('https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80')"></div>
 	
 	<div class="slide" style="background-image: url('https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80')"></div>
@@ -17,6 +17,7 @@
 		<div class="control"></div>
 		<div class="control"></div>
 	</div>
+	<div class="slider-batani"><button type="button" class="btn btn-outline-primary btn-lg">See Solutions</button></div>	
 </div>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt, risus nec cursus tempor, dolor nisl auctor ante, vel tincidunt velit neque ac dolor. Etiam eget tellus at nisl semper auctor tincidunt at diam. Nam id nibh sed justo tristique tempus. In ac condimentum sapien. Phasellus rutrum convallis urna non commodo. Integer euismod bibendum erat quis fringilla. Ut et purus dolor. Maecenas viverra maximus magna, quis placerat dui auctor fringilla.

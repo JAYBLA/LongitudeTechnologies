@@ -1,21 +1,25 @@
 /* header */
 .site-header{
     margin-top:0 !important;
-    z-index: 10 !important;
+    z-index: 11 !important;
 }
 .topbar{    
-    background-color: rgba(0, 125, 197, 1);    
+    background-color: rgba(0, 125, 197, 1);
+	bottom: 0 !important;  
 }
 
 .site-main-navi{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5) !important;
+	z-index: 11!important;
+	height: 80px !important;
 }
 
 .fixed-navi {
     position: fixed;
     top:0; left:0;
     z-index: 11!important;
-    width: 100%; }
+    width: 100%;
+}
 
 /* Slider */
 
@@ -28,18 +32,25 @@
 	height: 80vh;
 	width: 100vw;
     z-index: 3!important;
-    
+	margin-top: -80px !important;
 }
 
 .site-slider-container h1 {
     color: #FFFFFF;
-    font-family: "Michroma", Sans-serif;
+    font-family: "Michroma", Sans-serif !important;
     font-size: 52px;
     font-weight: 600;
     letter-spacing: 2.4px;
 	position: relative;
 	z-index: 3;
 	text-align: center;
+	text-transform: uppercase;
+}
+.slider-batani {
+	position: absolute;
+	z-index: 3;
+	margin-top: 10% !important;
+	left: 50 !important;
 }
 
 .site-slider-container::after {

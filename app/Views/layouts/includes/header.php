@@ -1,6 +1,6 @@
 <header class="site-header">
     <div class="container-fluid topbar">
-        <div class="row mx-3 text-light">
+        <div class="row px-4 text-light">
             <div class="col-md-6 justify-content-start">
                 <p>Welcome to Longitude Technologies</p>
             </div>
@@ -9,8 +9,8 @@
             </div>
         </div>
     </div>
-    <nav class="navbar navbar-expand-lg site-main-navi d-none d-lg-block">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light site-main-navi d-none d-lg-block py-3">
+        <div class="container-fluid px-4">
             <a class="navbar-brand text-light" href="#">LONGITUDE TECHNOLOGIES</a>
             <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0">
