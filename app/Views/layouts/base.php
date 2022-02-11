@@ -1,34 +1,28 @@
 <!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link href="<?= base_url() ?>/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?= base_url() ?>/assets/css/style.css">
 
-    <!-- Custom Css -->
-    <link rel="stylesheet" href="<?= base_url() ?>/assets/css/custom.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <title><?= $title ?> | LongitudeTechnologies</title>
-    <?= $this->renderSection('stylesheet') ?>
-</head>
-
-<body>
+    <?= $this->rendersection('stylesheet') ?>
+  </head>
+  <body>
     <?= $this->include('layouts/includes/header') ?>
-    <?= $this->renderSection('content') ?>
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
-    </script>
-    <script src="<?= base_url()?>/assets/js/custom.js"></script>
-    <?= $this->renderSection('javascript') ?>
-</body>
-
+    <?= $this->rendersection('content') ?>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="<?= base_url() ?>/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="<?= base_url() ?>/assets/js/main.js"></script>
+    <?= $this->rendersection('javascript') ?>
+  </body>
 </html>
