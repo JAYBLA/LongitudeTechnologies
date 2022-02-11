@@ -27,8 +27,7 @@ function changeSlides() {
 	if(activeSlide >= slides.length) {
 		activeSlide = 0;
 	}
-	
-	console.log(prevActive, activeSlide);
+
 }
 
 controls.forEach(control => {
