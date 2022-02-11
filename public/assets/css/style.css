@@ -59,6 +59,10 @@
 	top: 40px;
 	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   }
+
+  #mobile-menu{
+	  z-index: 999;
+  }
   
   #header.header-scrolled {
 	top: 0;
