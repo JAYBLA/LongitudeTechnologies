@@ -23,11 +23,13 @@
     <?= $this->include('layouts/includes/header') ?>
 
     <?= $this->rendersection('content') ?>
-
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="<?= base_url() ?>/assets/js/bootstrap.bundle.min.js"></script>
     <script src="<?= base_url() ?>/assets/js/main.js"></script>
+    <script src="<?= base_url() ?>/assets/js/custom.js"></script>
     <?= $this->rendersection('javascript') ?>
 </body>
 
