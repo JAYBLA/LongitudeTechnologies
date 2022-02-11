@@ -22,7 +22,7 @@
       <h1 class="logo me-auto"><a href="index.html">BizLand<span>.</span></a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt=""></a>-->
-      <a type="button" id="mobile-menu-toggler" href="#mobile-menu" class="mobile-nav-toggle d-lg-none"><i class="fa fa-bars text-light"></i></a>
+      <a type="button" href="#mobile-menu" class="mobile-nav-toggle d-lg-none"><i class="fa fa-bars text-light"></i></a>
       <nav class="nav-menu d-none d-lg-block text-light" id="desktop-navigation-menu">
         <ul>
           <li class="active"><a href="index.html">Home</a></li>

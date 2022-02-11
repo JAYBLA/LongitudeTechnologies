@@ -45,7 +45,24 @@
         
         <script>
 			$(function() {
-				$('nav#mobile-menu').mmenu();
+				$('nav#mobile-menu').mmenu({
+					extensions	: [ 'fx-menu-slide', 'shadow-page', 'shadow-panels', 'listview-large', 'pagedim-white' ],
+					iconPanels	: true,
+					counters	: true,
+					keyboardNavigation : {
+						enable	: true,
+						enhance	: true
+					},
+					navbar : {
+						title : 'Longitude Technologies'
+					},
+					navbars	: [
+                            {
+							position	: 'top',
+							content		: [ 'breadcrumbs', 'close' ]
+						}, 
+					]
+				});
 			});
 		</script>
 
