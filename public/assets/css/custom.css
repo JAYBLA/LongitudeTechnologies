@@ -1,0 +1,246 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* global area - start
+==================================================================================================== */
+:root{
+  --primary-color:#1167b1;
+  --secondary-color:#2a9df4;
+  --white-color:#ffffff;
+}
+
+.home-slider-button{
+    display: inline-block;
+    padding:5px  10px;
+    max-width: 100%;
+    border-color: var(--secondary-color);
+    color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+    border-radius: 0px;
+}
+
+.home-slider-button:hover{
+  background-color: var(--secondary-color);
+  color: var(--white-color) !important;
+}
+
+.top-bar-hidden{
+  display: none !important;
+}
+
+.bg-site-primary{
+  background-color: var(--primary-color)
+}
+
+/* mobile header */
+
+
+.navbar-expand-lg.top-nav .navbar-nav .nav-link{
+	padding: 10px 15px;
+	color: #323232;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: uppercase;
+	position: relative;
+}
+.navbar-expand-lg.top-nav .navbar-nav .nav-link i{
+	font-size: 14px;
+	float: right;
+	margin-left: 5px;
+}
+.navbar-expand-lg.top-nav .navbar-nav .nav-link:hover{
+	color: var(--white-color);
+	border-radius: 4.8px;
+}
+.navbar-expand-lg.top-nav .navbar-nav .nav-link.active{
+	color: var(--white-color);
+}
+.navbar-expand-lg.top-nav .navbar-nav .nav-link.active:before{
+	content: "";
+	position: absolute;
+	width: 40px;
+	background: var(--white-color);
+	height: 5px;
+	top: 0px;
+	left: 0px;
+	border-radius: 6px;
+}
+.navbar-expand-lg.top-nav .navbar-nav .nav-link.active:after{
+	content: "";
+	position: absolute;
+	width: 40px;
+	background: var(--white-color);
+	height: 5px;
+	bottom: 0px;
+	right: 0px;
+	border-radius: 6px;
+}
+.navbar-expand-lg.top-nav .navbar-nav .nav-link:before{
+	content: "";
+	position: absolute;
+	width: 0px;
+	background: var(--white-color);
+	height: 5px;
+	top: 0px;
+	left: 0px;
+	border-radius: 6px;
+	-webkit-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+.navbar-expand-lg.top-nav .navbar-nav .nav-link:after{
+	content: "";
+	position: absolute;
+	width: 0px;
+	background: var(--white-color);
+	height: 5px;
+	bottom: 0px;
+	right: 0px;
+	border-radius: 6px;
+	-webkit-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+.navbar-expand-lg.top-nav .navbar-nav .nav-link:hover:before{
+	width: 40px;
+	-webkit-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+.navbar-expand-lg.top-nav .navbar-nav .nav-link:hover:after{
+	width: 40px;
+	-webkit-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+
+.navbar-expand-lg.top-nav .navbar-nav .dropdown-menu{
+	margin: 0px;
+	box-shadow: 3px 5px 15px rgba(0,0,0, .15);
+	border: none;
+	padding: 20px;
+}
+.navbar-expand-lg.top-nav .navbar-nav .dropdown-menu .dropdown-item{
+	font-size: 14px;
+	padding: 0px;
+	margin-bottom: 15px;
+	font-weight: 300;
+}
+.navbar-expand-lg.top-nav .navbar-nav .dropdown-menu .dropdown-item:last-child{
+	padding: 0px;
+	margin: 0px;
+}
+.navbar-expand-lg.top-nav .navbar-nav .dropdown-menu .dropdown-item:hover{
+	background: none;
+	color: var(--white-color);
+}
+.top-nav .navbar-toggler{
+	color: var(--white-color);
+  border-color: none !important;
+}
+.top-nav .navbar-toggler:hover{
+	color: var(--white-color);
+	border-color: none !important;
+}
+
+/*================================================== */
+/* main menu - start
+================================================== */
+#longitudenavbarResponsive > ul > li {
+  padding: 15px 0px;
+}
+#longitudenavbarResponsive > ul > li:not(:last-child) {
+  margin-right: 30px;
+}
+#longitudenavbarResponsive > ul > li > a {
+  color: #ffffff;
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  font-family: "Rubik", sans-serif;
+}
+#longitudenavbarResponsive > ul > li:hover > a, #longitudenavbarResponsive > ul > li.active > a {
+  color: #fec931;
+}
+
+#longitudenavbarResponsive .has_child {
+  position: relative;
+}
+#longitudenavbarResponsive .has_child > a:after {
+  font-size: 12px;
+  font-weight: 500;
+  content: "";
+  margin-left: 5px;
+  display: inline-block;
+  font-family: "FontAwesome";
+}
+#longitudenavbarResponsive .has_child .submenu {
+  top: 100%;
+  left: 0px;
+  opacity: 0;
+  z-index: 99;
+  margin: 0px;
+  min-width: 220px;
+  padding: 20px 0px;
+  visibility: hidden;
+  position: absolute;
+  background: #ffffff;
+  transform: translateY(15px);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 2px 19px 3px rgba(0, 0, 0, 0.08);
+}
+#longitudenavbarResponsive .has_child .submenu li {
+  display: block;
+}
+#longitudenavbarResponsive .has_child .submenu li:not(:last-child) {
+  border-bottom: 1px solid #f5f6fa;
+}
+#longitudenavbarResponsive .has_child .submenu li a {
+  width: 100%;
+  display: block;
+  line-height: 1;
+  padding: 15px 30px;
+  white-space: nowrap;
+  color: #757575;
+}
+#longitudenavbarResponsive .has_child .submenu li:hover > a, #longitudenavbarResponsive .has_child .submenu li.active > a {
+  color: #ff4328;
+  background-color: #f5f6fa;
+}
+#longitudenavbarResponsive .has_child:hover > .submenu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+}
+
+#longitudenavbarResponsive .has_child .submenu .has_child {
+  position: relative;
+}
+#longitudenavbarResponsive .has_child .submenu .has_child > a:after {
+  float: right;
+  font-size: 13px;
+  content: "";
+  transform: translateY(0px);
+}
+#longitudenavbarResponsive .has_child .submenu .submenu {
+  top: -20px;
+  left: 100%;
+}
+
+.main_menu li a {
+  text-transform: uppercase !important;
+}
+
+#longitudenavbarResponsive li a {
+  text-transform: uppercase !important;
+}
