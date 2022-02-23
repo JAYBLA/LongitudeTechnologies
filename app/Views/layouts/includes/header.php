@@ -25,7 +25,7 @@
                 </div>
 
                 <div class="col-lg-9">
-                    <nav class="main_menu">
+                    <nav class="main_menu mr-4 pr-2">
                         <ul class="ul_li_center" id="toMobileMenu">
                             <li class="active">
                                 <a href="#">Home</a>

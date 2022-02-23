@@ -10,14 +10,14 @@
     <div class="main_slider owl-carousel owl-theme ">
 
         <div class="item" data-background="<?= base_url() ?>/assets/images/slider/planetarium.png">
-            <div class="container-fluid">
+            <div class="container-fluid ml-3 mr-3">
                 <div class="row ml-3 align-items-center justify-content-lg-between justify-content-md-center justify-content-sm-center">
                     <div class="col-lg-5 col-md-8 col-sm-12 col-xs-12 order-last">
                     </div>
 
                     <div class="col-lg-7 col-md-8 col-sm-12 col-xs-12">
                         <div class="slider_content text-white">                            
-                            <h3 class="item_title text-uppercase text-white mb-0">rich Printing</h3>
+                            <h3 class="item_title text-uppercase text-white mb-0">DJI Matrice 300 RTK	</h3>
                             <p>
                                 But I must explain to you how all this mistaken idea of denouncing pleasure and
                                 praising pain was born and I will give you a complete account
@@ -43,7 +43,7 @@
 
                     <div class="col-lg-7 col-md-8 col-sm-12 col-xs-12">
                         <div class="slider_content text-white">                            
-                            <h3 class="item_title text-uppercase text-white mb-0">rich Printing</h3>
+                            <h3 class="item_title text-uppercase text-white mb-0">DJI Matrice 300 RTK	</h3>
                             <p>
                                 But I must explain to you how all this mistaken idea of denouncing pleasure and
                                 praising pain was born and I will give you a complete account
@@ -69,7 +69,7 @@
 
                     <div class="col-lg-7 col-md-8 col-sm-12 col-xs-12">
                         <div class="slider_content text-white">                            
-                            <h3 class="item_title text-uppercase text-white mb-0">rich Printing</h3>
+                            <h3 class="item_title text-uppercase text-white mb-0">DJI Matrice 300 RTK	</h3>
                             <p>
                                 But I must explain to you how all this mistaken idea of denouncing pleasure and
                                 praising pain was born and I will give you a complete account
@@ -95,7 +95,7 @@
 
                     <div class="col-lg-7 col-md-8 col-sm-12 col-xs-12">
                         <div class="slider_content text-white">                            
-                            <h3 class="item_title text-uppercase text-white mb-0">rich Printing</h3>
+                            <h3 class="item_title text-uppercase text-white mb-0">DJI Matrice 300 RTK	</h3>
                             <p>
                                 But I must explain to you how all this mistaken idea of denouncing pleasure and
                                 praising pain was born and I will give you a complete account
@@ -116,6 +116,52 @@
 </section>
 <!-- slider_section - end
 			================================================== -->
+<section>
+	<div class="container-fluid colored-line-divider"></div>
+	<div class="container-fluid bg-dark text-center py-4">
+		<h2 class="text-white">IMPROVED PRODUCTIVITY USING INNOVATIVE TECHNOLOGY</h2>
+	</div>	
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-4 home-service-box">
+				<div class="text-center mb-3">
+					<img src="<?= base_url() ?>/assets/images/nikon-logo.png" alt="">					
+				</div>
+                <div class="text-center"><button class="btn btn-lg home-slider-button">EXPLORE</button></div>
+			</div>
+			<div class="col-md-4 home-service-box">
+				<div class="text-center mb-3">
+					<img src="<?= base_url() ?>/assets/images/nikon-logo.png" alt="">					
+				</div>
+                <div class="text-center"><button class="btn btn-lg home-slider-button">EXPLORE</button></div>
+			</div>
+			<div class="col-md-4 home-service-box">
+				<div class="text-center mb-3">
+					<img src="<?= base_url() ?>/assets/images/nikon-logo.png" alt="">					
+				</div>
+                <div class="text-center"><button class="btn btn-lg home-slider-button">EXPLORE</button></div>
+			</div>
+			<div class="col-md-4 home-service-box">
+				<div class="text-center mb-3">
+					<img src="<?= base_url() ?>/assets/images/nikon-logo.png" alt="">					
+				</div>
+                <div class="text-center"><button class="btn btn-lg home-slider-button">EXPLORE</button></div>
+			</div>
+			<div class="col-md-4 home-service-box align-middle">
+				<div class="text-center mb-3">
+					<img  src="<?= base_url() ?>/assets/images/nikon-logo.png" alt="">					
+				</div>
+                <div class="text-center"><button class="btn btn-lg home-slider-button">EXPLORE</button></div>
+			</div>
+			<div class="col-md-4 home-service-box">
+				<div class="text-center mb-3">
+					<img src="<?= base_url() ?>/assets/images/nikon-logo.png" alt="">				
+				</div>
+                <div class="text-center"><button class="btn btn-lg home-slider-button">EXPLORE</button></div>
+			</div>
+		</div>
+	</div>
+</section>
 <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt, risus nec cursus tempor, dolor nisl
     auctor ante, vel tincidunt velit neque ac dolor. Etiam eget tellus at nisl semper auctor tincidunt at diam. Nam id

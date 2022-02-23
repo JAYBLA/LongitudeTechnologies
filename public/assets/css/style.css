@@ -353,7 +353,7 @@ strong, span, small, label, i {
 }
 
 .ul_li_center {
-  justify-content: center;
+  justify-content: right;
 }
 
 .ul_li_right {
@@ -5094,9 +5094,8 @@ blockquote .blockquote_admin i {
 
 .home_three_slider .item_title {
   line-height: 1;
-  font-size: 100px;
-  font-weight: 700;
-  letter-spacing: -7px;
+  font-size: 3.125em;
+  font-weight: 700;  
   font-family: "Hind", sans-serif;
 }
 .home_three_slider p {

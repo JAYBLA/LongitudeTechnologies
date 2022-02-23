@@ -7,6 +7,7 @@
   --primary-color:#1167b1;
   --secondary-color:#2a9df4;
   --white-color:#ffffff;
+  --black-color: #000000;
 }
 
 .home-slider-button{
@@ -244,3 +245,24 @@
 #longitudenavbarResponsive li a {
   text-transform: uppercase !important;
 }
+
+.colored-line-divider{
+  height: 10px;
+  background-color: var(--secondary-color);
+  width:100%
+}
+
+.bg-dark {
+  background-color: var(--black-color)!important;
+}
+
+.home-service-box{
+  background-image: url(../images/trimble.jpg);  
+  background-repeat: no-repeat;
+  background-position: cover;
+  height: 400px;
+}
+.home-service-box img{
+margin-top: 25%;
+}
+
