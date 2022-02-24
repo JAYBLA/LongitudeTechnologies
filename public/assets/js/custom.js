@@ -109,7 +109,7 @@
     $('.main_slider').owlCarousel({
       items:1,
       margin:0,
-      nav:false,
+      nav:true,
       loop:true,
       dots:true,
       autoplay:true,

@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
 /* global area - start
 ==================================================================================================== */
 :root{
@@ -13,7 +14,7 @@
   --footer-content-color:#c7c7c8;
 }
 
-.home-slider-button{
+.home-slider-button{	
     display: inline-block;
     padding:10px 28px;
     max-width: 100%;
@@ -250,7 +251,8 @@
 }
 
 .colored-line-divider{
-  height: 10px;
+  margin-top:-15px !important;
+  height: 15px;
   background-color: var(--secondary-color);
   width:100%
 }
@@ -259,17 +261,59 @@
   background-color: var(--black-color)!important;
 }
 
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
 
 /* Improved Prducts */
 .serviceBox{
-    height: 400px;    
+    height: 600px;    
     overflow: hidden;
     position: relative;
 }
 .serviceImgHolder{
 	width: 100%;
     height: 100%;
-    background: url(../images/trimble.jpg);
+}
+.Serviceimg-01{
+    background: url(../images/products/ato_strearing.png);
+    background-position: center;	
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+.Serviceimg-02{
+    background: url(../images/products/auto_guidance.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+.Serviceimg-03{
+    background: url(../images/products/base_station.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+.Serviceimg-04{
+    background: url(../images/products/movable_planetarium.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+.Serviceimg-05{
+    background: url(../images/products/planetarium.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+.Serviceimg-06{
+    background: url(../images/products/star_gazing.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -283,8 +327,8 @@
     font-weight: bold;
     position: absolute;
 	z-index: 2;
-    top: 25%;
-	left: 25%;
+    top: 30%;
+	left: 20%;
     padding: 10px;
     text-decoration: none;
 }
@@ -298,7 +342,7 @@
 	content: "";
 	opacity: 0.85;
 	position: absolute;
-	background:  rgba(0,0,0,0.75);
+	background:  rgba(0,0,0,0.7);
   }
 
   .serviceBoxButton{
@@ -313,6 +357,17 @@
 	background-color: #ffffff;
 }
 
+.serviceTitle{
+	font-size: 2rem;
+	font-weight: 900;
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: -2px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
 /* FOOTER */
 .topFooter{
 	background-color: var(--footer-color);
@@ -322,12 +377,33 @@
 	background-color: var(--copyright-color);
 }
 
-.footer_section h3, .footer_section p, .footer_section a{
+.topFooter h3, .topFooter p, .topFooter a{
 	color: var(--footer-content-color) !important;
 }
 
+.copyright-part p{
+	color: var(--footer-content-color) !important;
+}
+
+.designer-part p{
+	color: #5a5a5a !important;
+	font-style: italic;
+}
+.designer-part a{
+	color: #777777 !important;
+	font-style: italic;
+}
+
 /* FONT AWESOME */
-.fa_30{
-	font-size: 30px !important;
+.fa_24{
+	font-size: 24px !important;
+}
+
+
+/* MOBILE PROPERTIES */
+@media only screen and (max-width:768px){
+	.serviceTitle{
+		font-size: 30px;
+	}
 }
 

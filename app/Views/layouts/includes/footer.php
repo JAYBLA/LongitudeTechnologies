@@ -6,7 +6,7 @@
                     <div class="col-md-4 col-sm-12 col-xs-12">
                         <div class="widget footer_useful_links">
                             <h3 class="footer_widget_title">Quick Links</h3>
-                            <p>Sed ut persiatis unde omnis iste natusec error sit voluptatem accusantium</p>
+                            <p>Longitude Technologies is a precision and technology company which offers a variety of world-class product and services in Eastern Africa.</p>
                         </div>
                     </div>
 
@@ -27,26 +27,26 @@
                             <ul class="circle_social_links ul_li_right">
                                 <li>
                                     <a class="bg_facebook" href="#!">
-                                        <i class="fa fa-facebook-square fa_30 text-dark"></i>
-                                        <i class="fa fa-facebook-square fa_30 text-dark"></i>
+                                        <i class="fa fa-facebook-square fa_24 text-dark"></i>
+                                        <i class="fa fa-facebook-square fa_24 text-dark"></i>
                                     </a>
                                 </li>
                                 <li>
                                     <a class="bg_twitter" href="#!">
-                                        <i class="fa fa-twitter fa_30 text-dark"></i>
-                                        <i class="fa fa-twitter fa_30 text-dark"></i>
+                                        <i class="fa fa-twitter fa_24 text-dark"></i>
+                                        <i class="fa fa-twitter fa_24 text-dark"></i>
                                     </a>
                                 </li>
                                 <li>
                                     <a class="bg_youtube" href="#!">
-                                        <i class="fa fa-instagram fa_30 text-dark"></i>
-                                        <i class="fa fa-instagram fa_30 text-dark"></i>
+                                        <i class="fa fa-instagram fa_24 text-dark"></i>
+                                        <i class="fa fa-instagram fa_24 text-dark"></i>
                                     </a>
                                 </li>
                                 <li>
                                     <a class="bg_linkedin" href="#!">
-                                        <i class="fa fa-linkedin fa_30 text-dark"></i>
-                                        <i class="fa fa-linkedin fa_30 text-dark"></i>
+                                        <i class="fa fa-linkedin fa_24 text-dark"></i>
+                                        <i class="fa fa-linkedin fa_24 text-dark"></i>
                                     </a>
                                 </li>
                             </ul>
@@ -58,10 +58,14 @@
     </div>
     <div class="bottomFooter">
         <div class="footer_bottom_boxed container">
-            <div class="row align-items-center justify-content-lg-between">
-                <div class="col-12">
-                    <p class="copyright_text mb-0">© Copyright 2020 All Right Reserved Design By <a class="author_links"
-                            target="_blank" href="https://themeforest.net/user/bdevs">BDevs</a></p>
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="copyright_text mb-0">&copy; <script>document.write(new Date().getFullYear())</script> &nbsp; Longitude Technologies						
+					</p>
+                </div>
+                <div class="col-sm-6 float-right designer-part">
+                    <p class="mb-0">Developed By<a href="https://bafrocodes.co.tz">&nbsp;BafroCodes</a>			
+					</p>
                 </div>
             </div>
         </div>
