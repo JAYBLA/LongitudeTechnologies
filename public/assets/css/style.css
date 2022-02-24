@@ -1,7 +1,6 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 /* global area - start
 ==================================================================================================== */
 :root{
@@ -17,7 +16,7 @@ body {
   line-height: 1.867;
   font-style: normal;
   color: #757575;
-  font-family: "Hind", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background-color: #ffffff;
   text-rendering: optimizelegibility;
   -moz-osx-font-smoothing: grayscale;
@@ -81,7 +80,7 @@ button {
   cursor: pointer;
   display: inline-block;
   text-decoration: none;
-  font-family: "Hind", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 a:hover,
 button:hover {
@@ -106,11 +105,11 @@ img {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   color: #222222;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 strong, span, small, label, i {
-  font-family: "Hind", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .form_item {
@@ -133,7 +132,7 @@ strong, span, small, label, i {
   font-weight: 500;
   margin-bottom: 15px;
   color: #ff4328;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .form_item input, .form_item textarea {
   width: 100%;
@@ -160,28 +159,28 @@ strong, span, small, label, i {
 :-moz-placeholder {
   color: #616161;
   font-weight: 500;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-transform: capitalize;
 }
 
 ::-moz-placeholder {
   color: #616161;
   font-weight: 500;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-transform: capitalize;
 }
 
 :-ms-input-placeholder {
   color: #616161;
   font-weight: 500;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-transform: capitalize;
 }
 
 ::-webkit-input-placeholder {
   color: #616161;
   font-weight: 500;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-transform: capitalize;
 }
 
@@ -202,7 +201,7 @@ strong, span, small, label, i {
   border-radius: 0px;
   padding-right: 40px;
   background-color: #ffffff;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   transition: all 0.3s ease-in-out;
 }
 .select_option .nice-select:after {
@@ -224,7 +223,7 @@ strong, span, small, label, i {
 .select_option .nice-select > span {
   color: #616161;
   font-weight: 500;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-transform: capitalize;
 }
 .select_option .nice-select .list {
@@ -394,7 +393,7 @@ strong, span, small, label, i {
   display: inline-block;
   color: #222222;
   text-transform: uppercase;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .primary_social_links li:not(:last-child) {
@@ -523,7 +522,7 @@ strong, span, small, label, i {
   text-align: center;
   border-radius: 45px;
   border: 3px solid #dbdbdb;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .pagination_nav li:hover a, .pagination_nav li.active a {
   color: #ffffff;
@@ -692,7 +691,7 @@ strong, span, small, label, i {
   align-items: center;
   display: inline-flex;
   text-transform: uppercase;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   justify-content: space-between;
 }
 .custom_btn:before {
@@ -828,7 +827,7 @@ strong, span, small, label, i {
   display: inline-block;
   color: #222222;
   text-transform: uppercase;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .text_btn span:before {
   width: 0px;
@@ -1279,7 +1278,7 @@ button {
   color: #ffffff;
 }
 .text-white .header_items_list > li:after {
-  background-color: #38368a;
+  background-color: var(--primary-color);
 }
 .text-white .primary_social_links a {
   color: #ababab;
@@ -1295,7 +1294,7 @@ button {
 .header_contact_info li {
   color: #7276b3;
   font-size: 15px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .header_contact_info li:not(:last-child) {
   margin-right: 50px;
@@ -1306,26 +1305,13 @@ button {
 }
 
 .header_items_list > li {
-  color: #7276b3;
+  color: var(--primary-color);
   font-size: 15px;
   position: relative;
 }
 .header_items_list > li:not(:last-child) {
-  margin-right: 30px;
-  padding-right: 30px;
-}
-.header_items_list > li:after {
-  top: 50%;
-  width: 2px;
-  content: "";
-  right: -1px;
-  height: 20px;
-  position: absolute;
-  background-color: #c6ccdc;
-  transform: translateY(-50%);
-}
-.header_items_list > li:last-child:after {
-  display: none;
+  margin-right: 10px;
+  padding-right: 10px;
 }
 
 .header_btns_group li:not(:last-child) {
@@ -1374,7 +1360,7 @@ button {
   font-size: 14px;
   font-weight: 700;
   color: #757575;
-  font-family: "Hind", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
 }
 .header_hotline span {
@@ -1417,7 +1403,7 @@ button {
   font-size: 16px;
   font-weight: 500;
   position: relative;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .main_menu > ul > li:hover > a, .main_menu > ul > li.active > a {
   color: #fec931;
@@ -2052,7 +2038,7 @@ button {
   line-height: 1;
   font-size: 18px;
   color: #222222;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .footer_hotline i {
   margin-right: 10px;
@@ -2098,14 +2084,14 @@ button {
   font-weight: 600;
   margin-bottom: 5px;
   color: #757575;
-  font-family: "Hind", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
 }
 .footer_contact_info p {
   margin: 0px;
   line-height: 1;
   font-size: 18px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* footer contact info list - end */
@@ -2397,7 +2383,7 @@ button {
   position: relative;
   padding-right: 70px;
   color: #222222;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .sb_service_category a:before {
   top: 0px;
@@ -3337,7 +3323,7 @@ button {
   font-weight: 500;
   margin-bottom: 14px;
   color: #222222;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .funfact_item .item_title {
   line-height: 1;
@@ -3345,7 +3331,7 @@ button {
   font-weight: 500;
   margin-bottom: 0px;
   color: #757575;
-  font-family: "Hind", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .funfact_bordered {
@@ -3873,7 +3859,7 @@ button {
   font-size: 18px;
   font-weight: 500;
   color: #222222;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .small_blog:hover .item_title > a {
   color: #ff4328;
@@ -4022,7 +4008,7 @@ button {
   line-height: 1.455;
   letter-spacing: -1px;
   color: #222222;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .blog_grid_1:hover .item_title > a {
   color: #ff4328;
@@ -4074,7 +4060,7 @@ button {
   line-height: 1.455;
   letter-spacing: -1px;
   color: #222222;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .blog_grid_2:hover .item_title > a {
   color: #ff4328;
@@ -4179,7 +4165,7 @@ button {
   line-height: 1.455;
   letter-spacing: -1px;
   color: #222222;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .blog_fullimage:hover .item_title > a {
   color: #fec931;
@@ -4265,7 +4251,7 @@ button {
   font-weight: 500;
   line-height: 1.455;
   letter-spacing: -1px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .blog_fullimage_2:hover .item_title > a {
   color: #fec931;
@@ -4401,7 +4387,7 @@ button {
   line-height: 1;
   font-weight: 500;
   color: #ff4328;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* product card layout - end */
@@ -4668,7 +4654,7 @@ blockquote .blockquote_admin i {
   font-weight: 500;
   color: #757575;
   text-transform: uppercase;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .comment_area .reply_btn:hover {
   color: #ff4328;
@@ -4780,7 +4766,7 @@ blockquote .blockquote_admin i {
   position: relative;
   padding-bottom: 20px;
   color: #222222;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .description_tabnav a:before {
   width: 0px;
@@ -5096,7 +5082,7 @@ blockquote .blockquote_admin i {
   line-height: 1;
   font-size: 3.125em;
   font-weight: 700;  
-  font-family: "Hind", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .home_three_slider p {
   font-size: 18px;

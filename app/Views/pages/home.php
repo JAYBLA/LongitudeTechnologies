@@ -10,7 +10,7 @@
     <div class="main_slider owl-carousel owl-theme ">
 
         <div class="item" data-background="<?= base_url() ?>/assets/images/slider/planetarium.png">
-            <div class="container-fluid ml-3 mr-3">
+            <div class="container">
                 <div class="row ml-3 align-items-center justify-content-lg-between justify-content-md-center justify-content-sm-center">
                     <div class="col-lg-5 col-md-8 col-sm-12 col-xs-12 order-last">
                     </div>
@@ -123,41 +123,65 @@
 	</div>	
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-4 home-service-box">
-				<div class="text-center mb-3">
+			<div class="col-md-4 serviceBox">
+                <div class="serviceImgHolder">
+                </div>
+                <div class="serviceBoxContents">
+                <div class="text-center mb-3">
 					<img src="<?= base_url() ?>/assets/images/nikon-logo.png" alt="">					
 				</div>
-                <div class="text-center"><button class="btn btn-lg home-slider-button">EXPLORE</button></div>
+                <div class="text-center"><button class="btn btn-lg serviceBoxButton mt-3">EXPLORE</button></div>
+                </div>
 			</div>
-			<div class="col-md-4 home-service-box">
-				<div class="text-center mb-3">
+            <div class="col-md-4 serviceBox">
+                <div class="serviceImgHolder">
+                </div>
+                <div class="serviceBoxContents">
+                <div class="text-center mb-3">
 					<img src="<?= base_url() ?>/assets/images/nikon-logo.png" alt="">					
 				</div>
-                <div class="text-center"><button class="btn btn-lg home-slider-button">EXPLORE</button></div>
+                <div class="text-center"><button class="btn btn-lg serviceBoxButton mt-3">EXPLORE</button></div>
+                </div>
 			</div>
-			<div class="col-md-4 home-service-box">
-				<div class="text-center mb-3">
+            <div class="col-md-4 serviceBox">
+                <div class="serviceImgHolder">
+                </div>
+                <div class="serviceBoxContents">
+                <div class="text-center mb-3">
 					<img src="<?= base_url() ?>/assets/images/nikon-logo.png" alt="">					
 				</div>
-                <div class="text-center"><button class="btn btn-lg home-slider-button">EXPLORE</button></div>
+                <div class="text-center"><button class="btn btn-lg serviceBoxButton mt-3">EXPLORE</button></div>
+                </div>
 			</div>
-			<div class="col-md-4 home-service-box">
-				<div class="text-center mb-3">
+            <div class="col-md-4 serviceBox">
+                <div class="serviceImgHolder">
+                </div>
+                <div class="serviceBoxContents">
+                <div class="text-center mb-3">
 					<img src="<?= base_url() ?>/assets/images/nikon-logo.png" alt="">					
 				</div>
-                <div class="text-center"><button class="btn btn-lg home-slider-button">EXPLORE</button></div>
+                <div class="text-center"><button class="btn btn-lg serviceBoxButton mt-3">EXPLORE</button></div>
+                </div>
 			</div>
-			<div class="col-md-4 home-service-box align-middle">
-				<div class="text-center mb-3">
-					<img  src="<?= base_url() ?>/assets/images/nikon-logo.png" alt="">					
+            <div class="col-md-4 serviceBox">
+                <div class="serviceImgHolder">
+                </div>
+                <div class="serviceBoxContents">
+                <div class="text-center mb-3">
+					<img src="<?= base_url() ?>/assets/images/nikon-logo.png" alt="">					
 				</div>
-                <div class="text-center"><button class="btn btn-lg home-slider-button">EXPLORE</button></div>
+                <div class="text-center"><button class="btn btn-lg serviceBoxButton mt-3">EXPLORE</button></div>
+                </div>
 			</div>
-			<div class="col-md-4 home-service-box">
-				<div class="text-center mb-3">
-					<img src="<?= base_url() ?>/assets/images/nikon-logo.png" alt="">				
+            <div class="col-md-4 serviceBox">
+                <div class="serviceImgHolder">
+                </div>
+                <div class="serviceBoxContents">
+                <div class="text-center mb-3">
+					<img src="<?= base_url() ?>/assets/images/nikon-logo.png" alt="">					
 				</div>
-                <div class="text-center"><button class="btn btn-lg home-slider-button">EXPLORE</button></div>
+                <div class="text-center"><button class="btn btn-lg serviceBoxButton mt-3">EXPLORE</button></div>
+                </div>
 			</div>
 		</div>
 	</div>
@@ -367,5 +391,18 @@
 <?= $this->endSection() ?>
 
 <?= $this->section('javascript') ?>
+<script>
+    $(document).ready(function() {
 
+        $('.serviceBox').mouseover(function() {
+
+            $(this).find('.serviceImgHolder').css('transform', 'scale(1.2)');
+        });
+
+        $('.serviceBox').mouseout(function() {
+
+            $(this).find('.serviceImgHolder').css('transform', 'scale(1)');
+        });
+    });
+</script>
 <?= $this->endSection() ?>

@@ -4,9 +4,9 @@
             <div class="row align-items-center">
                 <div class="col-md-6 offset-md-6">
                     <ul class="header_items_list ul_li_right">
-                        <li><i class="fa fa-facebook"></i></li>
-                        <li><i class="fa fa-instagram"></i></li>
-                        <li><i class="fa fa-linkedin"></i></li>
+                        <li><i class="fa fa-facebook-square" style="font-size:22px;"></i></li>
+                        <li><i class="fa fa-instagram" style="font-size:22px;"></i></li>
+                        <li><i class="fa fa-linkedin-square" style="font-size:22px;"></i></li>
                     </ul>
                 </div>
             </div>
@@ -14,9 +14,9 @@
     </div>
 
     <div class="header_bottom pt-3">
-        <div class="container-fluid">
-            <div class="row align-items-center">
-                <div class="col-lg-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 align-items-left">
                     <div class="brand_logo">
                         <a href="/">
                             <img src="<?=base_url() ?>/assets/images/logo.png" alt="logo_not_found">
@@ -25,7 +25,7 @@
                 </div>
 
                 <div class="col-lg-9">
-                    <nav class="main_menu mr-4 pr-2">
+                    <nav class="main_menu ml-5">
                         <ul class="ul_li_center" id="toMobileMenu">
                             <li class="active">
                                 <a href="#">Home</a>

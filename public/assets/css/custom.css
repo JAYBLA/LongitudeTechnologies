@@ -12,7 +12,7 @@
 
 .home-slider-button{
     display: inline-block;
-    padding:5px  10px;
+    padding:10px 28px;
     max-width: 100%;
     border-color: var(--secondary-color);
     color: var(--secondary-color);
@@ -256,13 +256,58 @@
   background-color: var(--black-color)!important;
 }
 
-.home-service-box{
-  background-image: url(../images/trimble.jpg);  
-  background-repeat: no-repeat;
-  background-position: cover;
-  height: 400px;
+
+/* Improved Prducts */
+.serviceBox{
+    height: 400px;    
+    overflow: hidden;
+    position: relative;
 }
-.home-service-box img{
-margin-top: 25%;
+.serviceImgHolder{
+	width: 100%;
+    height: 100%;
+    background: url(../images/trimble.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
 }
+
+.serviceBoxContents{
+	color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+	z-index: 2;
+    top: 25%;
+	left: 25%;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.serviceBox:before {
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 1;
+	content: "";
+	opacity: 0.85;
+	position: absolute;
+	background:  rgba(0,0,0,0.75);
+  }
+
+  .serviceBoxButton{
+	  color: #ffffff;
+	  border: 2px solid #ffffff;
+	  padding:10px 28px;
+	  border-radius: 0px;
+  }
+
+  .serviceBoxButton:hover{
+	color: #000000;
+	background-color: #ffffff;
+}
+
 
