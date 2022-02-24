@@ -8,6 +8,9 @@
   --secondary-color:#2a9df4;
   --white-color:#ffffff;
   --black-color: #000000;
+  --footer-color:#37383a;
+  --copyright-color:#1b1b1b;
+  --footer-content-color:#c7c7c8;
 }
 
 .home-slider-button{
@@ -310,4 +313,21 @@
 	background-color: #ffffff;
 }
 
+/* FOOTER */
+.topFooter{
+	background-color: var(--footer-color);
+}
+
+.bottomFooter{
+	background-color: var(--copyright-color);
+}
+
+.footer_section h3, .footer_section p, .footer_section a{
+	color: var(--footer-content-color) !important;
+}
+
+/* FONT AWESOME */
+.fa_30{
+	font-size: 30px !important;
+}
 

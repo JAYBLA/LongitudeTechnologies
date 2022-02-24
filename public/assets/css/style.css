@@ -7,7 +7,12 @@
   --primary-color:#1167b1;
   --secondary-color:#2a9df4;
   --white-color:#ffffff;
+  --black-color: #000000;
+  --footer-color:#37383a;
+  --copyright-color:#1b1b1b;
+  --footer-content-color:#c7c7c8;
 }
+
 body {
   margin: 0px;
   padding: 0px;
@@ -453,15 +458,14 @@ strong, span, small, label, i {
 .circle_social_links a {
   width: 45px;
   height: 45px;
-  display: block;
-  color: #878bd0;
+  display: block;  
   font-size: 14px;
   overflow: hidden;
   line-height: 49px;
   position: relative;
   text-align: center;
   border-radius: 100%;
-  background-color: #1a1e5d;
+  background-color: var(--footer-content-color);
 }
 .circle_social_links a i {
   left: 50%;
@@ -1950,15 +1954,6 @@ button {
 /* footer - start
 ==================================================================================================== */
 /* footer section - start */
-.footer_section {
-  padding-bottom: 25px;
-}
-.footer_section.bg_gray {
-  background-color: #f5f6fa;
-}
-.footer_section.bg_black {
-  background-color: #212121;
-}
 
 .footer_widget_title {
   line-height: 1;
@@ -1974,9 +1969,7 @@ button {
 .footer_bottom_boxed {
   padding: 25px 50px;
 }
-.footer_bottom_boxed.bg_white {
-  background-color: #ffffff;
-}
+
 
 /* footer section - start */
 /* footer brand list - start */
