@@ -10,7 +10,7 @@
 
         <div class="innersection-title">         
           <h3 style="font-size:3em;">404 ! <span>PAGE NOT FOUND</span></h3>  
-          <a class="btn btn-primary" href="/">Back Home</a>       
+          <a class="btn longitude-btn-primary btn-lg" href="/">Back Home</a>       
         </div>
     </section>
 <?= $this->endSection() ?>
