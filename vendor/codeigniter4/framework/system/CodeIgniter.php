@@ -189,6 +189,7 @@ class CodeIgniter
             \Kint::$enabled_mode = false;
             // @codeCoverageIgnoreEnd
         }
+    }
 
     /**
      * Checks system for missing required PHP extensions.
