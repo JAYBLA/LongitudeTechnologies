@@ -4,7 +4,10 @@
 <?= $this->endSection() ?>
 
 <?= $this->section('content') ?>
-<h1>Error Page</h1>
+<section class="innerTopMargin"></section>
+<div class="container vh-100">
+<h1 class="color-primary">404 Page Not Found</h1>
+</div>
 <?= $this->endSection() ?>
 
 <?= $this->section('javascript') ?>
