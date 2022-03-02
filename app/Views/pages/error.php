@@ -5,9 +5,13 @@
 
 <?= $this->section('content') ?>
 <section class="innerTopMargin"></section>
-<div class="container m-auto vh-100">
-<h1 class="color-primary">404 Page Not Found</h1>
-</div>
+    <section class="innerPages py-5 pb-3">
+      <div class="container">
+
+        <div class="innersection-title">         
+          <h3 style="font-size:3em;">404 ! <span>PAGE NOT FOUND</span></h3>          
+        </div>
+    </section>
 <?= $this->endSection() ?>
 
 <?= $this->section('javascript') ?>
