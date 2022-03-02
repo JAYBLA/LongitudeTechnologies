@@ -46,8 +46,7 @@
                                     <li><a href="<?= base_url() ?>/satellite-images">SATELLITE IMAGES</a></li>
                                 </ul>
                             </li>
-                            <li><a href="<?= base_url() ?>/stem_club">STEM CLUB</a></li>                            
-                            <li><a href="#">contact us</a></li>
+                            <li><a href="<?= base_url() ?>/stem_club">STEM CLUB</a></li>    
                         </ul>
                     </nav>
                 </div>
