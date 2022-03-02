@@ -1,4 +1,4 @@
-<?= $this->extend('layouts/base') ?>
+<?= $this->extend('layouts/baseInner') ?>
 
 <?= $this->section('stylesheet') ?>
 <?= $this->endSection() ?>
