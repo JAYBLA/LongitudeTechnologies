@@ -3,17 +3,19 @@
         <div class="container">
             <div class="footer_widget_area">
                 <div class="row justify-content-lg-between">
-                    <div class="col-md-4 col-sm-12 col-xs-12">
-                        <div class="widget footer_useful_links">
-                            <h3 class="footer_widget_title">Quick Links</h3>
-                            <p>Longitude Technologies is a precision and technology company which offers a variety of world-class product and services in Eastern Africa.</p>
+                    <div class="col-md-5">
+                        <div class="widget footerLogo footerItemsMargin">                            
+                                <a href="/">
+                                    <img src="<?=base_url() ?>/assets/images/logo.png" alt="logo_not_found">
+                                </a>                           
+                                <p class="mt-3">Longitude Technologies is a precision and technology company which offers a variety of world-class product and services in Eastern Africa.</p>
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-sm-12 col-xs-12">
-                        <div class="widget footer_useful_links">
-                            <h3 class="footer_widget_title">Useful Links</h3>
-                            <ul class="ul_li_block">
+                    <div class="col-md-3">
+                        <div class="widget footerItemsMargin">
+                            <h3 class="footer_widget_title text-uppercase mb-0 bold">Useful Links</h3>
+                            <ul class="ul_li_block mt-3">
                                 <li><a href="#!">Design & Branding</a></li>
                                 <li><a href="#!">3D Design & Printing</a></li>
                                 <li><a href="#!">Offset Printing</a></li>
@@ -22,33 +24,14 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-12 col-xs-12">
-                        <div class="widget footer_contact_form">
-                            <ul class="circle_social_links ul_li_right">
-                                <li>
-                                    <a class="bg_facebook" href="#!">
-                                        <i class="fa fa-facebook-square fa_24 text-dark"></i>
-                                        <i class="fa fa-facebook-square fa_24 text-dark"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="bg_twitter" href="#!">
-                                        <i class="fa fa-twitter fa_24 text-dark"></i>
-                                        <i class="fa fa-twitter fa_24 text-dark"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="bg_youtube" href="#!">
-                                        <i class="fa fa-instagram fa_24 text-dark"></i>
-                                        <i class="fa fa-instagram fa_24 text-dark"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="bg_linkedin" href="#!">
-                                        <i class="fa fa-linkedin fa_24 text-dark"></i>
-                                        <i class="fa fa-linkedin fa_24 text-dark"></i>
-                                    </a>
-                                </li>
+                    <div class="col-md-4">
+                    <div class="widget contactInfo footerItemsMargin">
+                            <h3 class="footer_widget_title text-uppercase mb-0 bold">Contacts</h3>
+                            <ul class="ul_li_block mt-3">
+                            <li><a href="#"><i class="fa fa-map-marker" style="font-size:22px;"></i> <span>Morombo-Arusha Tanzania</span></a></li>
+                                <li><a href="mailto:mishamomusa@gmail.com"><i class="fa fa-envelope" style="font-size:22px;"></i><span>mishamomusa@gmail.com</span></a></li>
+                                <li><a href="tel:+255767335721"><i class="fa fa-phone" style="font-size:22px;"></i><span>+255767335721</span></a></li>
+                                <li><a href="https://wa.me/%2B255767335721?text=Hello%20Longitude%20Technologies"><i class="fa fa-whatsapp" style="font-size:22px;"></i><span>+255767335721</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -60,7 +43,7 @@
         <div class="footer_bottom_boxed container">
             <div class="row">
                 <div class="col-sm-6">
-                    <p class="copyright_text mb-0">&copy; <script>document.write(new Date().getFullYear())</script> &nbsp; Longitude Technologies						
+                    <p class="copyright_text mb-0 text-white">&copy; <script>document.write(new Date().getFullYear())</script> &nbsp; Longitude Technologies						
 					</p>
                 </div>
                 <div class="col-sm-6 float-right designer-part">

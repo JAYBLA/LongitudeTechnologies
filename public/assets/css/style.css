@@ -4,8 +4,8 @@
 /* global area - start
 ==================================================================================================== */
 :root{
-  --primary-color:#1167b1;
-  --secondary-color:#2a9df4;
+  --primary-color:#1271b3;
+  --secondary-color:#33aadc;
   --white-color:#ffffff;
   --black-color: #000000;
   --footer-color:#37383a;
@@ -16,7 +16,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.867;
   font-style: normal;
@@ -1245,7 +1245,24 @@ button {
   position: fixed;
   box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.1);
   animation: 0.5s ease-in-out 0s normal none 1 running fadeInDown;
-  background-color: var(--primary-color);
+  background-color: var(--white-color);
+
+}
+
+.stuckInner {
+  position: fixed;
+  box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.1);
+  animation: 0.5s ease-in-out 0s normal none 1 running fadeInDown;
+  background-color: var(--white-color);
+
+}
+
+.sticky_header.stuck a {
+  color: var(--primary-color) !important;
+  }
+
+  .stuckInner a {
+color: var(--primary-color) !important;
 }
 
 .header_section .select_option .nice-select {
@@ -1256,15 +1273,7 @@ button {
   padding-right: 15px;
   background-color: transparent;
 }
-.header_section .select_option .nice-select:after {
-  right: 0px;
-  color: #ff4328;
-}
-.header_section .select_option .nice-select .list {
-  right: 0px;
-  left: unset;
-  min-width: 250px;
-}
+
 .header_section .action_btn {
   width: 55px;
   height: 55px;
@@ -1296,7 +1305,7 @@ button {
   min-height: 20px;
   padding: 5px 0px;
   align-items: center;
-  background-color: #f5f6fa;
+  background-color: var(--primary-color);
 }
 
 .header_top .primary_social_links a {
@@ -1316,7 +1325,7 @@ button {
   color: #ffffff;
 }
 .text-white .header_items_list > li:after {
-  background-color: var(--primary-color);
+  background-color: var(--white-color);
 }
 .text-white .primary_social_links a {
   color: #ababab;
@@ -1343,7 +1352,7 @@ button {
 }
 
 .header_items_list > li {
-  color: var(--primary-color);
+  color: var(--white-color);
   font-size: 15px;
   position: relative;
 }
@@ -1430,7 +1439,7 @@ button {
 /* main menu - start
 ================================================== */
 .main_menu > ul > li {
-  padding: 15px 0px;
+  padding: 30px 0px;
 }
 .main_menu > ul > li:not(:last-child) {
   margin-right: 30px;
@@ -1444,7 +1453,7 @@ button {
   font-family: 'Open Sans', sans-serif;
 }
 .main_menu > ul > li:hover > a, .main_menu > ul > li.active > a {
-  color: #fec931;
+  color: var(--secondary-color);
 }
 
 .main_menu .has_child {
@@ -5068,7 +5077,7 @@ blockquote .blockquote_admin i {
 .home_three_slider .item {
   z-index: 1;
   display: flex;
-  min-height: 900px;
+  min-height: 100vh;
   position: relative;
   align-items: center;
 }
@@ -5107,10 +5116,17 @@ blockquote .blockquote_admin i {
 
 .home_three_slider .item_title {
   line-height: 1;
-  font-size: 3.125em;
+  font-size: 2.125em;
   font-weight: 700;  
   font-family: 'Open Sans', sans-serif;
 }
+
+@media  only screen and (min-width:768px){
+  .home_three_slider .item_title {
+    font-size: 3.125em;
+  }
+}
+
 .home_three_slider p {
   font-size: 18px;
   font-weight: 500;
@@ -5871,10 +5887,8 @@ blockquote .blockquote_admin i {
     max-width: 130px;
   }
 
-  .home_three_slider .item_title {
-    font-size: 90px;
-  }
 
+  
   .home_three_slider p {
     font-size: 16px;
   }
@@ -6648,10 +6662,8 @@ blockquote .blockquote_admin i {
     display: inline-block;
   }
 
-  .home_three_slider .item_title {
-    font-size: 78px;
-  }
 
+  
   .home_three_slider .custom_btn {
     padding: 10px 25px;
   }
@@ -7408,10 +7420,9 @@ blockquote .blockquote_admin i {
     padding-left: 0px;
   }
 
-  .home_three_slider .item_title {
-    font-size: 66px;
-    margin-bottom: 20px;
-  }
+
+  
+
 
   .home_three_slider p {
     font-size: 14px;

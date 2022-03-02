@@ -76,7 +76,7 @@
 
     <!-- header_section - start
 		================================================== -->
-    <?= $this->include('layouts/includes/header') ?>
+    <?= $this->include('layouts/includes/header-inner') ?>
     <!-- header_section - end
 		================================================== -->
 

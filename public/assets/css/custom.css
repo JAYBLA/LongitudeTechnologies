@@ -5,8 +5,8 @@
 /* global area - start
 ==================================================================================================== */
 :root{
-  --primary-color:#1167b1;
-  --secondary-color:#2a9df4;
+  --primary-color:#1271b3;
+  --secondary-color:#33aadc;
   --white-color:#ffffff;
   --black-color: #000000;
   --footer-color:#37383a;
@@ -18,15 +18,15 @@
     display: inline-block;
     padding:10px 28px;
     max-width: 100%;
-    border-color: var(--secondary-color);
-    color: var(--secondary-color);
-    border: 2px solid var(--secondary-color);
+    border-color: var(--white-color);
+    color: var(--white-color);
+    border: 2px solid var(--white-color);
     border-radius: 0px;
 }
 
 .home-slider-button:hover{
-  background-color: var(--secondary-color);
-  color: var(--white-color) !important;
+  background-color: var(--white-color);
+  color: var(--primary-color) !important;
 }
 
 .top-bar-hidden{
@@ -39,7 +39,9 @@
 
 /* mobile header */
 
-
+.top-nav{
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
 .navbar-expand-lg.top-nav .navbar-nav .nav-link{
 	padding: 10px 15px;
 	color: #323232;
@@ -54,17 +56,17 @@
 	margin-left: 5px;
 }
 .navbar-expand-lg.top-nav .navbar-nav .nav-link:hover{
-	color: var(--white-color);
+	color: var(--primary-color);
 	border-radius: 4.8px;
 }
 .navbar-expand-lg.top-nav .navbar-nav .nav-link.active{
-	color: var(--white-color);
+	color: var(--primary-color);
 }
 .navbar-expand-lg.top-nav .navbar-nav .nav-link.active:before{
 	content: "";
 	position: absolute;
 	width: 40px;
-	background: var(--white-color);
+	background: var(--primary-color);
 	height: 5px;
 	top: 0px;
 	left: 0px;
@@ -74,7 +76,7 @@
 	content: "";
 	position: absolute;
 	width: 40px;
-	background: var(--white-color);
+	background: var(--primary-color);
 	height: 5px;
 	bottom: 0px;
 	right: 0px;
@@ -84,7 +86,7 @@
 	content: "";
 	position: absolute;
 	width: 0px;
-	background: var(--white-color);
+	background: var(--primary-color);
 	height: 5px;
 	top: 0px;
 	left: 0px;
@@ -99,7 +101,7 @@
 	content: "";
 	position: absolute;
 	width: 0px;
-	background: var(--white-color);
+	background: var(--primary-color);
 	height: 5px;
 	bottom: 0px;
 	right: 0px;
@@ -146,14 +148,14 @@
 }
 .navbar-expand-lg.top-nav .navbar-nav .dropdown-menu .dropdown-item:hover{
 	background: none;
-	color: var(--white-color);
+	color: var(--primary-color);
 }
 .top-nav .navbar-toggler{
-	color: var(--white-color);
+	color: var(--primary-color);
   border-color: none !important;
 }
 .top-nav .navbar-toggler:hover{
-	color: var(--white-color);
+	color: var(--primary-color);
 	border-color: none !important;
 }
 
@@ -167,7 +169,7 @@
   margin-right: 30px;
 }
 #longitudenavbarResponsive > ul > li > a {
-  color: #ffffff;
+  color: var(--primary-color);
   display: block;
   font-size: 16px;
   font-weight: 500;
@@ -175,7 +177,7 @@
   font-family: "Rubik", sans-serif;
 }
 #longitudenavbarResponsive > ul > li:hover > a, #longitudenavbarResponsive > ul > li.active > a {
-  color: #fec931;
+  color: var(--secondary-color);
 }
 
 #longitudenavbarResponsive .has_child {
@@ -374,7 +376,7 @@
 }
 
 .bottomFooter{
-	background-color: var(--copyright-color);
+	background-color: var(--primary-color);
 }
 
 .topFooter h3, .topFooter p, .topFooter a{
@@ -382,15 +384,15 @@
 }
 
 .copyright-part p{
-	color: var(--footer-content-color) !important;
+	color: var(--white-color) !important;
 }
 
 .designer-part p{
-	color: #5a5a5a !important;
+	color:var(--secondary-color) !important;
 	font-style: italic;
 }
 .designer-part a{
-	color: #777777 !important;
+	color: var(--secondary-color) !important;
 	font-style: italic;
 }
 
@@ -405,5 +407,155 @@
 	.serviceTitle{
 		font-size: 30px;
 	}
+  .footerItemsMargin{
+    margin-bottom: 10%!important;
+  }
 }
+
+.footerLogo img{
+  margin-top: -25px;
+  height: 80px;
+  width: auto;
+}
+
+.headerLogo img{ 
+  height: 80px;
+  width: auto;
+}
+
+.mobileHeaderLogo img{
+  height: 50px;
+  width: auto;
+}
+
+.contactInfo a span{
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+.color-primary {
+  color: var(--primary-color) !important;
+}
+
+.bold{
+  font-weight: bold !important;
+}
+
+/*--------------------------------------------------------------
+# innerPages
+--------------------------------------------------------------*/
+.innerPages .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.innerPages .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.innerPages .content ul li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 35px;
+}
+
+.innerPages .content ul li:first-child {
+  margin-top: 35px;
+}
+
+.innerPages .content ul i {
+  background: #fff;
+  box-shadow: 0px 6px 15px rgba(16, 110, 234, 0.12);
+  font-size: 24px;
+  padding: 20px;
+  margin-right: 15px;
+  color: var(--primary-color);
+  border-radius: 50px;
+}
+
+.innerPages .content ul h5 {
+  font-size: 18px;  
+}
+
+.innerPages .content ul p {
+  font-size: 16px;
+}
+
+.innerPages .content p:last-child {
+  margin-bottom: 0;
+}
+
+.innerTopMargin{
+  margin-top: 5%;
+}
+
+
+/*--------------------------------------------------------------
+# Inner Sections General
+--------------------------------------------------------------*/
+
+.innersection-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.innersection-title h2 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  margin: 0;
+  background: #e7f1fd;
+  color: var(--primary-color);
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
+.innersection-title h3 {
+  margin: 15px 0 0 0;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.innersection-title h3 span {
+  color: var(--primary-color);
+}
+
+.innersection-title p {
+  margin: 15px auto 0 auto;
+  font-weight: 600;
+}
+
+@media (min-width: 1024px) {
+  .innersection-title p {
+    width: 50%;
+  }
+}
+
+.longitude-list {
+  list-style: none;
+  width: 350px;
+  background: #f2f7fd;
+  padding: 30px;
+  border-radius: 4px;
+}
+.longitude-list li {
+  padding: 10px 0 10px 0;
+}
+.longitude-list li:nth-child(odd) {
+  text-align: left;
+  border-left: 10px solid var(--primary-color);
+  padding-left: 4px;
+  border-bottom: 10px solid var(--secondary-color);
+}
+.longitude-list li:nth-child(even) {
+  text-align: right;
+  border-right: 10px solid var(--primary-color);
+  padding-right: 4px;
+  border-bottom: 10px solid var(--secondary-color);
+}
+
 
