@@ -165,30 +165,30 @@ class CodeIgniter
      */
     public function initialize()
     {
+        // Set default locale on the server
+        if( function_exists('locale_set_default' ) ) :
+            locale_set_default($this->config->defaultLocale ?? 'en');
+        endif; 
+
+        // Set default timezone on the server
+        date_default_timezone_set($this->config->appTimezone ?? 'UTC');
+
         // Define environment variables
         $this->detectEnvironment();
         $this->bootstrapEnvironment();
 
         // Setup Exception Handling
-        Services::exceptions()->initialize();
-
-        // Run this check for manual installations
-        if (! is_file(COMPOSER_PATH)) {
-            $this->resolvePlatformExtensions(); // @codeCoverageIgnore
-        }
-
-        // Set default locale on the server
-        locale_set_default($this->config->defaultLocale ?? 'en');
-
-        // Set default timezone on the server
-        date_default_timezone_set($this->config->appTimezone ?? 'UTC');
+        Services::exceptions()
+                ->initialize();
 
         $this->initializeKint();
 
-        if (! CI_DEBUG) {
-            Kint::$enabled_mode = false; // @codeCoverageIgnore
+        if (! CI_DEBUG)
+        {
+            // @codeCoverageIgnoreStart
+            \Kint::$enabled_mode = false;
+            // @codeCoverageIgnoreEnd
         }
-    }
 
     /**
      * Checks system for missing required PHP extensions.
