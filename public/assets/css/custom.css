@@ -568,8 +568,8 @@
 
 .longitude-btn-primary {
   color: #fff;
-  background-color: var(--primary-color);
-  border-color: var(--primary-color);
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
 }
 
 
